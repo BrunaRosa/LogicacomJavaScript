@@ -8,13 +8,12 @@ Esse projeto contém exercícios que desenvolvi durante as aulas de Lógica de p
 
 Esse projeto não é necessário instalar nenhum framework ou linguagem:
 
-
-<br><h3>Linguagens de marcação e estilização utilizados</h3>
+<h3>Linguagens de marcação e estilização utilizadas</h3>
 <blockquote><b>HTML e CSS</b></blockquote>
 
 
 <br><h3>Linguagem de programação utilizadas</h3>
-<blockquote><b>JavasScript</b></blockquote>
+<blockquote><b>JavaScript</b></blockquote>
 
 <br><h2>Aulas</h2>
 
