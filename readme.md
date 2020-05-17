@@ -1,10 +1,8 @@
 <h1>Lógica de Programação com JavaScript - Caelum</h1>
 
-Esse projeto contém exercicios que desenvolvi durante as aulas de Lógica de programação, o intuinto de fazer essas aulas, era rever o contéudo que aprendi na faculdade anos atrás.
+Esse projeto contém exercícios que desenvolvi durante as aulas de Lógica de programação, e o intuito de fazer essas aulas, era rever o contéudo que aprendi na faculdade anos atrás.
 
-<center>
-<img src= "img/css_html_js.png" alt= "Icone do JavaScript" height="200">
-</center>
+<center><img src= "img/css_html_js.png" alt= "Icone do JavaScript" height="200"></center>
 
 <br><h2>Pré- requisitos</h2>
 
