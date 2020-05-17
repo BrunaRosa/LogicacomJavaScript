@@ -3,7 +3,7 @@
 Esse projeto contém exercicios que desenvolvi durante as aulas de Lógica de programação, o intuinto de fazer essas aulas, era rever o contéudo que aprendi na faculdade anos atrás.
 
 <center>
-<img src= "img/javascript.jpg" alt= "Icone do JavaScript" max-width: 51%;>
+<img src= "img/javascript.jpg" alt= "Icone do JavaScript" style="max-width:51%;">
 </center>
 
 <br><h2>Pré- requisitos</h2>
