@@ -1,0 +1,24 @@
+Tipos de Dados:
+
+    1) Number = números
+        a) Integer = inteiros (2, 25, -50, 87)
+        b) Float = números quebrados (1.75, 25.789, 17.236589)
+
+    2) String = textos
+        a) Aspas simples = ''
+        b) Aspas Duplas = ""
+        c) Crase = `` (Template String / String Literals)
+
+----------------------------------------------------------------------
+
+Operadores Matemáticos
+    + (adição)
+    - (subtração)
+    / (divisão)
+    * (multiplicação)
+    ** (exponenciação)
+    % (módulo = resto da divisão)
+
+----------------------------------------------
+
+TEXTO + RESULTADO + <hr>

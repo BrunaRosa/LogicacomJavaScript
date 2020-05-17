@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<h1>Descubra qual é o valor do salário reajustado do funcionário</h1>
+
+<script>
+  var salario = Number(prompt ("Por favor, informe seu salario atual").replace(",","."))
+  var porcentagemReajuste = Number(prompt ("Por favor, informe a porcentagem do reajuste").replace(",","."))
+  var salarioReajustado =  parseFloat(salario + (salario*(porcentagemReajuste/100)))
+
+  document.write(`O seu novo salário será : ${salarioReajustado}`)
+</script>

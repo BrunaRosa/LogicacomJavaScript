@@ -1,0 +1,31 @@
+Variável: é um espaço na memória que guarda uma informação simples.
+          Por exemplo: um nome, um número, uma lista, etc.
+
+
+Regras para nomes de variáveis
+
+    Os nomes podem ter:
+        a) a-z A-Z 
+        b) 0-9 (mas não pode ser o primero caracter do nome)
+        c) _ (underscore)
+        d) $ (cifrão)
+
+    Pode:
+        nome_completo
+        NomeCompleto 
+        nomeCompleto 
+        nomecompleto 
+        $nomecompleto 
+        $nome_completo1
+
+    Não pode:
+        1nome_completo (porque começou com número)
+        nome-completo (caracter traço não pode ser usado)
+        %nomeCompleto (caracter de porcentagem não pode)
+        nome completo (por causa do espaço)
+
+---------------------------------------
+
+    PascalCase = NomeCompleto, IdadeAtual, PrecoDoProduto
+    camelCase = nomeCompleto, idadeAtual, precoDoProduto 
+    snake_case = nome_completo, idade_atual, preco_do_produto
