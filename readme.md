@@ -11,13 +11,12 @@ Esse projeto não é necessário instalar nenhum framework ou linguagem:
 <h3>Linguagens de marcação e estilização utilizadas</h3>
 <blockquote><b>HTML e CSS</b></blockquote>
 
-
-<br><h3>Linguagem de programação utilizadas</h3>
+<h3>Linguagem de programação utilizadas</h3>
 <blockquote><b>JavaScript</b></blockquote>
 
 <br><h2>Aulas</h2>
 
-Os exercicios feitos em cada página está relacionado a alguns temas:
+Os exercicios feitos em cada arquivo está relacionado a alguns temas:
 
 <hr><h3>Na aula do dia 16/05/2020 [arquivo: exercicios_16_maio ] falamos sobre:</h3>
 <blockquote>
