@@ -35,5 +35,5 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
 
 <ul> 
     <li>[Caelum] (https://www.caelum.com.br/)</li>
-    <li>[Curso] (caelum.com.br/curso-logica-de-programacao?id=9243)</li>
+    <li>[Curso] (https://caelum.com.br/curso-logica-de-programacao?id=9243)</li>
 <ul>
