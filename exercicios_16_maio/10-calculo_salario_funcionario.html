@@ -3,8 +3,8 @@
 
 <script>
   var salario = Number(prompt ("Por favor, informe seu salario atual").replace(",","."))
-  var porcentagemReajuste = Number(prompt ("Por favor, informe a porcentagem do reajuste").replace(",","."))
-  var salarioReajustado =  parseFloat(salario + (salario*(porcentagemReajuste/100)))
+  var porcentagemReajuste = parseInt(prompt ("Por favor, informe a porcentagem do reajuste").replace(",","."))
+  var salarioReajustado =  (salario + (salario*(porcentagemReajuste/100)))
 
-  document.write(`O seu novo salário será : ${salarioReajustado}`)
+  document.write(`O seu novo salário será : R$ ${salarioReajustado.toFixed(2).replace(".",",")}`)
 </script>
