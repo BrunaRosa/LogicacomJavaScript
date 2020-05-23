@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+    <h1>Calculo Salário Vendedor</h1>
+
+<script src="../javascript/formata_moeda.js"></script>
+<script src="../javascript/pede_numero.js"></script>
+
+<script>
+    var salarioFixo = solicitaDadoFloat('Informe o salário fixo do vendedor:')
+    var comissãoPorCarro = solicitaDadoFloat('Informe o valor da comissão por carro:')
+    var valorTotalVendas = solicitaDadoFloat('Informe o valor total das vendas de carros:')
+    var quantidadeVendas = solicitaDadoInt('Informe a quantidade de carros vendidos:')
+    var comissaoCarros =  quantidadeVendas * comissãoPorCarro
+    var comissaoPercentual  = valorTotalVendas * 0.05
+    var salarioFinal = salarioFixo + comissaoPercentual + comissaoCarros 
+  
+    document.write(`
+        O salário fixo é: ${formataMoeda(salarioFixo)} <br>
+        A comissão fixa é: ${formataMoeda(comissaoCarros)} <br>
+        A comissão total dos carros vendidos é: ${formataMoeda(comissaoPercentual)} <br>
+        O salário total do Vendedor é: ${formataMoeda(salarioFinal)} <br>
+    `)
+</script>

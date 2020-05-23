@@ -1,0 +1,33 @@
+Funções servem para armazenar uma lógica inteira em memória 
+(conjunto de instruções/códigos)
+para ser utilizada quando necessário.
+
+Criação de funções:
+
+    function nomeDaFuncao()
+    {
+
+    }
+
+
+Execução de funções:
+
+    nomeDaFuncao()
+
+
+Funções com Retorno GERALMENTE (99% das vezes) estão na 
+frente de variáveis ou DENTRO DE OUTRAS FUNÇÕES.
+
+---------------------------------------------------
+
+Funções Globais (funções da linguagem JS)
+    console.log() = c/parametro
+    alert() = c/parametro
+    document.write() = c/ parametro
+    Number() = c/parametro e retorno
+    parseFloat() = c/parametro e retorno
+    parseInt() = c/parametro e retorno
+    toFixed() = c/parametro e retorno
+    replace() = c/parametro e retorno
+    getFullYear() = simples e retorno
+    prompt() = c/parametro e retorno

@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<h1>Descubra qual é o valor de um carro saindo da fábrica</h1>
+
+<script src="../javascript/pede_numero.js"></script>
+<script>
+  var custoFabrica = solicitaDadoFloat("Por favor, insira o valor de custo de fábrica do carro")
+  var custoDistribuidor = (custoFabrica * 0.28)
+  var custoImposto = (custoFabrica * 0.45)
+  var custoCarro =  (custoFabrica + custoDistribuidor + custoImposto)
+
+  document.write(`O custo do carro será : R$ ${custoCarro.toFixed(2).replace(".",",")}`)
+</script>

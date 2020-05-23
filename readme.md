@@ -28,8 +28,21 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
 <ul>
 </blockquote>
 
+<hr><h3>Na aula do dia 23/05/2020 [arquivo: exercicios_23_maio ] falamos sobre:</h3>
+<blockquote>
+    <ul> 
+    <li>Variáveis e Constantes</li>
+    <li>Funções e retornos</li>
+    <li>Scripts e bibliotecas</li>
+    <li>Exercícios praticando o que aprendemos na aula</li>
+<ul>
+</blockquote>
+
 <br><h2>Autora</h2>
 <blockquote><b>Bruna Rosa</b></blockquote>
+
+<br><h2>Professor</h2>
+<blockquote><b>Jhonatan Rosa Jacinto</b></blockquote>
 
 <br><h2>Escola</h2>
 

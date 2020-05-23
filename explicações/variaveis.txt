@@ -29,3 +29,8 @@ Regras para nomes de variáveis
     PascalCase = NomeCompleto, IdadeAtual, PrecoDoProduto
     camelCase = nomeCompleto, idadeAtual, precoDoProduto 
     snake_case = nome_completo, idade_atual, preco_do_produto
+
+
+    ____________________________
+
+    const = dado fixo, o valor será fixo 
