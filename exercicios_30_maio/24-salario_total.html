@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<h1>Calculo Salário do Funcinário</h1>
+
+<script src="../javascript/formata_moeda.js"></script>
+<script src="../javascript/pede_numero.js"></script>
+
+<script>
+    var salarioFixo = solicitaDadoFloat('Informe o salário fixo do funcionário:')
+    var valorTotalVendas = solicitaDadoFloat('Informe o valor total das vendas:')
+
+    if (valorTotalVendas <= 1500) {
+        var valorComissão3 = valorTotalVendas * 0.03
+        var salarioTotal = salarioFixo + valorComissão3
+        document.write(`O salário do funcionário: ${formataMoeda(salarioTotal)}`)
+    } else if (valorTotalVendas > 1500) {
+        var valorComissão3 = 1500 * 0.03
+        var valorComissão5 = (valorTotalVendas - 1500) * 0.05
+        var salarioTotal = salarioFixo + valorComissão3 + valorComissão5
+        document.write(`O salário do funcionário: ${formataMoeda(salarioTotal)}`)
+    }
+</script>

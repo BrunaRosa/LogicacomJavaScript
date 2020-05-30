@@ -9,6 +9,11 @@ Tipos de Dados:
         b) Aspas Duplas = ""
         c) Crase = `` (Template String / String Literals)
 
+    3) Boolean = true / false 
+
+    4) Array = Lista, Matriz ou Vetor
+        TODO ARRAY COMEÇA NA POSIÇÃO ZERO (0)
+
 ----------------------------------------------------------------------
 
 Operadores Matemáticos

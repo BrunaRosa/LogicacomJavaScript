@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<h1>Aprovação Aluno</h1>
+
+<script src="/javascript/pede_numero.js"></script>
+
+<script>
+    var nota1 = solicitaDadoFloat('Por favor, informe a primeira nota')
+    var nota2 = solicitaDadoFloat('Por favor, informe a segunda nota')
+
+    var mediaNotas = ((nota1 * 5) + (nota2 * 5)) / 10
+
+    var msg = document.write(`
+        A primeira nota foi: ${nota1} <br>
+        A primeira nota foi: ${nota2} <br>
+        A média das nota fora: ${mediaNotas.toFixed(1)} <br>
+    `)
+
+    if (mediaNotas >= 7) {
+        msg
+        document.write('Parabéns!Você foi aprovado!')
+    } else {
+        msg
+        document.write('Sinto muito, você foi reprovado')
+    }
+</script>

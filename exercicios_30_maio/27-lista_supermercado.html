@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+<h1>Minha Lista de Compras</h1>
+<p>Utilize o formulário abaixo para crir sua lista de compras: </p>
+
+
+<p>
+    Nome do Item: <br>
+    <input type="text" id="campoItem">
+    <button onclick="adicionarItem()">
+        Adicionar na Lista
+    </button>
+</p>
+
+<p id="mensagem">
+    Sua lista está vazia no momento :/
+</p>
+
+
+<script>
+    var lista = []
+
+    function adicionarItem() {
+        var item = campoItem.value;
+        if (item.trim() === "") {
+            alert('Por favor, preecha o campo com um valor válido')
+        } else {
+            lista.push(item)
+            mensagem.innerHTML = (`
+                Sua lista de supermercador tem ${lista.length} item(ns): <br>
+            ${lista.join('<br>')}
+        `);
+        }
+
+        campoItem.value = ''
+        campoItem.focus()
+    }
+</script>

@@ -1,25 +1,23 @@
 Operadores de Comparação e Atribuição
 
-Comparação
-    = (atribuição)
-    == (igualdade)   ---  aqui compara valor com valor
-    === (igualdade restritiva)    ----aqui compara tipo(de valor) e valor
+    == (igualdade)
+    === (igualdade restritiva)
     != (diferença)
     !== (diferença restritiva)
     > (maior que)
     < (menor que)
-    >= (maior ou igual a )
-    <= (menor ou igual a )
+    >= (maior ou igual a)
+    <= (menor ou igual a)
 
-Atribuição
     = (atribuição)
-    += (atribuição  por soma)
-    -= (atribuição  por subtração)
-    *= (atribuição  por multiplicação)
-    /= (atribuição  por divisão)
+    += (atribuição por soma)
+    -= (atribuição por subtração)
+    *= (atribuição por multiplicação)
+    /= (atribuição por divisão)
 
 
-Operadores lógicos
-&& (E)
-|| (ou) 
-! (não ou negação)
+Operadores Lógicos
+
+    && (E)
+    || (Ou)
+    ! (Não / Negação)

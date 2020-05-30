@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<h1>Estoque</h1>
+
+<script src="/javascript/pede_numero.js"></script>
+
+<script>
+    var quantidadeAtualProduto = solicitaDadoInt('Por favor, informe a quantidade do produto no estoque')
+    var quantidadeMaxProduto = solicitaDadoInt('Por favor, informe a quantidade máxima do produto no estoque')
+    var quantidadeMinProduto = solicitaDadoInt('Por favor, informe a quantidade minima do produto no estoque')
+    var quantidadeMediaProduto = (quantidadeMaxProduto + quantidadeMinProduto) / 2
+
+    var msg = document.write(`
+        Quantidade Atual: ${quantidadeAtualProduto} <br>
+        Quantidade Máxima: ${quantidadeMaxProduto} <br>
+        Quantidade Mínima: ${quantidadeMinProduto} <br>
+        Quantidade Média: ${quantidadeMediaProduto} <br>
+    `)
+
+    if (quantidadeAtualProduto >= quantidadeMediaProduto) {
+        msg
+        document.write('Não efetuar a compra de mais produtos!')
+    } else {
+        msg
+        document.write('Efetuar a compra de mais produto!')
+    }
+</script>

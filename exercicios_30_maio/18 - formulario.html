@@ -33,6 +33,7 @@ Data de Nascimento <br>
 
 <script>
     // VMasker(campoDataNascimento).maskPattern('99/99/9999')
+
     flatpickr(campoDataNascimento, {
         locale: 'pt',
         dateFormat: 'd/m/Y'
@@ -45,13 +46,11 @@ Data de Nascimento <br>
         var dataNascimento = campoDataNascimento.value
 
         document.write(`
-        <h2>Ficha Cadastral</h2>
-        Nome: ${nome} <br>
-        Peso: ${peso} kg <br>
-        Altura: ${altura} m <br>
-        Data de Nascimento: ${dataNascimento} <br>
-        
-     `)
-
+            <h2>Ficha Cadastral</h2>
+            Nome: ${nome} <br>
+            Peso: ${peso} kg <br>
+            Altura: ${altura} m <br>
+            Data de Nascimento: ${dataNascimento} <br>   
+        `)
     }
 </script>

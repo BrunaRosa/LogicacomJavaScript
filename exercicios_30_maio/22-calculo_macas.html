@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<h1>Descubra qual é o valor que você pagará nas Maçãs</h1>
+
+<script src="../javascript/pede_numero.js"></script>
+<script src="../javascript/formata_moeda.js"></script>
+
+<script>
+    var quantidadeMaca = solicitaDadoInt("Por favor, insira a quatidade de Maçãs que você quer")
+    var custoMenorDuzia = (quantidadeMaca * 1.30)
+    var custoMaiorDuzia = (quantidadeMaca * 1.00)
+
+    var msg = document.write(`
+        Você comprou : ${quantidadeMaca}  maças <br>        
+    `)
+
+    if (quantidadeMaca > 0 && quantidadeMaca <= 12) {
+        msg
+        document.write(`Você pagará : ${formataMoeda(custoMenorDuzia)}`)
+    } else if (quantidadeMaca >= 12) {
+        msg
+        document.write(`Você pagará : ${formataMoeda(custoMaiorDuzia)}`)
+    }
+</script>

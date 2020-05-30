@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<h1>Login / Caelum</h1>
+
+<p>
+    Preencha o formulário abaixo para fazer login:
+</p>
+
+<p>
+    Usuário: <br>
+    <input type="text" id="campoUsuario">
+</p>
+
+<p>
+    Senha: <br>
+    <input type="password" id="campoSenha">
+</p>
+
+
+<button onclick="logar()">
+    Entrar
+</button>
+
+<script>
+    function logar() {
+        var usuario = campoUsuario.value
+        var senha = campoSenha.value
+
+        if (usuario === "caelum" && senha === "wd01") {
+            document.write('Login realizado com sucesso!Redirecionando para Caelum...')
+            window.location = 'http://caelum.com.br'
+        } else {
+            alert('Dados inválidos, tente novamente')
+            campoUsuario.value = ''
+            campoSenha.value = ''
+            campoUsuario.focus()
+        }
+    }
+</script>
