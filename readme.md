@@ -28,7 +28,7 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
         <li>Lógica de programação</li>
         <li>Introdução a HTML e CSS</li>
         <li>Introdução a JavaScript: variáveis e operadores matemáticos</li>
-        <li>Exercícios praticando o que aprendemos na aula</li>
+        <li>Exercícios praticados durante a aula</li>
         <ul>
 </blockquote>
 
@@ -39,7 +39,7 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
         <li>Variáveis e Constantes</li>
         <li>Funções e retornos</li>
         <li>Scripts e bibliotecas</li>
-        <li>Exercícios praticando o que aprendemos na aula</li>
+        <li>Exercícios praticados durante a aula</li>
         <ul>
 </blockquote>
 
@@ -52,7 +52,7 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
         <li>Operadores lógicos</li>
         <li>Condições (if's)</li>
         <li>Arrays</li>
-        <li>Exercícios praticando o que aprendemos na aula</li>
+        <li>Exercícios praticados durante a aula</li>
         <ul>
 </blockquote>
 
