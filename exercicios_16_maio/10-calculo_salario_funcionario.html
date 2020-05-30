@@ -7,7 +7,7 @@
 <script>
   var salario = solicitaDadoFloat('Por favor, informe seu salario atual')
   var porcentagemReajuste = solicitaDadoInt('Por favor, informe a porcentagem do reajuste')
-  var salarioReajustado =  (salario + (salario*(porcentagemReajuste/100)))
+  var salarioReajustado = (salario + (salario * (porcentagemReajuste / 100)))
 
   document.write(`O seu novo salário será : ${formataMoeda(salarioReajustado)}`)
 </script>

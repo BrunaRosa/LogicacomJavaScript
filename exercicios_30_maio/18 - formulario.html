@@ -1,0 +1,57 @@
+<meta charset="UTF-8">
+<h1>Academia Caelum</h1>
+
+<p>
+    Para realizar seu cadastro, por favor preencha o formulário abaixo:
+</p>
+
+Nome <br>
+<input type="text" id="campoNome">
+<br><br>
+
+Peso <br>
+<input type="text" id="campoPeso">
+<br><br>
+
+Altura <br>
+<input type="text" id="campoAltura">
+<br><br>
+
+Data de Nascimento <br>
+<input type="text" id="campoDataNascimento">
+<br><br>
+
+<button onclick="cadastrar()">
+    Cadastrar
+</button>
+
+<script src="http://unpkg.com/vanilla-masker@1.1.1/build/vanilla-masker.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr "></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/pt.js "></script>
+
+<script>
+    // VMasker(campoDataNascimento).maskPattern('99/99/9999')
+    flatpickr(campoDataNascimento, {
+        locale: 'pt',
+        dateFormat: 'd/m/Y'
+    })
+
+    function cadastrar() {
+        var nome = campoNome.value
+        var peso = campoPeso.value
+        var altura = campoAltura.value
+        var dataNascimento = campoDataNascimento.value
+
+        document.write(`
+        <h2>Ficha Cadastral</h2>
+        Nome: ${nome} <br>
+        Peso: ${peso} kg <br>
+        Altura: ${altura} m <br>
+        Data de Nascimento: ${dataNascimento} <br>
+        
+     `)
+
+    }
+</script>

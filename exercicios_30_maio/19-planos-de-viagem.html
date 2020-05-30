@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<h1>Planos de Viagem</h1>
+
+<script src="/javascript/pede_numero.js"></script>
+
+<script>
+    var idadeUsuario = solicitaDadoInt('Por favor.Informe a sua idade')
+
+
+    if (idadeUsuario >= 12 && idadeUsuario <= 17) {
+        document.write('Plano Teen <br>')
+    } else if (idadeUsuario >= 18 && idadeUsuario <= 29) {
+        document.write('Plano Professional <br>')
+    } else if (idadeUsuario >= 30) {
+        document.write('Plano Xperience <br>')
+    } else {
+        document.write('Não há planos pra você!!')
+    }
+</script>

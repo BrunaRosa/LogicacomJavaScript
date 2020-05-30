@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
-    <h1>Uber vs Carro</h1>
-    <h2>Carro</h2>
+<h1>Uber vs Carro</h1>
+<h2>Carro</h2>
 
 <script src="../javascript/formata_moeda.js"></script>
 <script src="../javascript/pede_numero.js"></script>
@@ -11,8 +11,8 @@
     var precoGasolina = solicitaDadoFloat('Digite o preço da gasolina:')
     var precoEstacionamento = solicitaDadoFloat('Digite o preço do estacionamento:')
 
-    var gastoGasolina =  distancia / autonomia * precoGasolina
-    var totalCarro =  gastoGasolina + precoEstacionamento
+    var gastoGasolina = distancia / autonomia * precoGasolina
+    var totalCarro = gastoGasolina + precoEstacionamento
 
     document.write(`
         Preço da Gasolina: ${formataMoeda(precoGasolina)} <br>
@@ -24,7 +24,6 @@
 <hr>
 <h2>Uber</h2>
 <script>
-
     const precoBase = 2.75
     const velocidadeMedia = 25
 
@@ -35,7 +34,7 @@
     var tempoMinutos = distancia / velocidadeMedia * 60
     var gastoTempo = tempoMinutos * 0.26
     var totalUber = gastoKmRodados + gastoTempo + precoBase
-    
+
     document.write(`
         Total da Viagem com Uber: ${formataMoeda(totalUber)}
     `)
