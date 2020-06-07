@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<h1>Soma ...</h1>
+
+<script src="../src/javascript/pede_numero.js"></script>
+
+<script>
+    var numeroInicial = solicitaDadoInt('Informe um numero Inicial: ')
+    var numeroFinal = solicitaDadoInt('Informe um numero Final: ')
+    var acumula = 0 
+
+    for ( var i = numeroInicial; i <= numeroFinal; i++){
+       acumula += i
+    }
+
+    document.write(`O valor total da soma é ${acumula} <br>`)
+
+</script>

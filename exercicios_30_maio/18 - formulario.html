@@ -21,6 +21,9 @@ Data de Nascimento <br>
 <input type="text" id="campoDataNascimento">
 <br><br>
 
+<input type="checkbox" id="campoSouCardiaco"> Tenho problemas cardíacos
+<br><br>
+
 <button onclick="cadastrar()">
     Cadastrar
 </button>
@@ -30,6 +33,7 @@ Data de Nascimento <br>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr "></script>
 <script src="https://npmcdn.com/flatpickr/dist/l10n/pt.js "></script>
+<script src="../src/javascript/libIdade.js"></script>
 
 <script>
     // VMasker(campoDataNascimento).maskPattern('99/99/9999')
@@ -44,13 +48,34 @@ Data de Nascimento <br>
         var peso = campoPeso.value
         var altura = campoAltura.value
         var dataNascimento = campoDataNascimento.value
+        var souCardiaco =  campoSouCardiaco.checked
+
+        // console.log(typeof dataNascimento) // string
+        // console.log(dataNascimento) // 12/04/1991
+
+        var dataPedaco = dataNascimento.split("/")
+        var dia = dataPedaco[0]
+        var mes = dataPedaco[1]
+        var ano = dataPedaco[2]
+
+        var idade =  calculaIdade(dia,mes,ano)
+
+        if (idade < 14 || souCardiaco == true){
+            var frase =  'PRECISA DE ACOMPANHAMENTO'
+        }
+        else { 
+            var frase =  'NÃO PRECISA DE ACOMPANHAMENTO'
+        }
 
         document.write(`
             <h2>Ficha Cadastral</h2>
             Nome: ${nome} <br>
             Peso: ${peso} kg <br>
             Altura: ${altura} m <br>
-            Data de Nascimento: ${dataNascimento} <br>   
+            Data de Nascimento: ${dataNascimento} <br>  
+            Idade: ${idade} anos <br>
+            ${frase}
+
         `)
     }
 </script>

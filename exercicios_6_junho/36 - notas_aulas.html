@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<h1>Notas alunos ...</h1>
+
+<script src="../src/javascript/pede_numero.js"></script>
+
+<script>
+    var quantidadeAlunos = solicitaDadoInt('Informe a quantidade de alunos:')
+
+    for (var a=1; a <=quantidadeAlunos; a++)
+    {
+        var nomeAluno = prompt(`Informe o(a) nome do(a) ${a} aluno: `)
+        alert(`Agora, informe as notas do aluno: ${nomeAluno}`)
+        var totalNotas = 0;
+
+        for (var n= 1; n <=3; n++){
+            var nota = solicitaDadoFloat(`Informe o(a) nome do(a) ${n}ª nota: `)
+            totalNotas += nota
+        }
+        var media = totalNotas / 3
+        document.write(`A média do(a) aluno(a) ${nomeAluno} é: ${media.toFixed(1)} <br>`)
+    }
+
+</script>

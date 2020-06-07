@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<h1>Cafeteira</h1>
+<p id="mostrador">
+    Seu café está sem açucar no nomento :/
+</p>
+
+<script>
+    var colheres_acucar = 0 
+    while (confirm('Quer mais açúcar?') ==  true){
+        colheres_acucar++
+        if (colheres_acucar > 10){
+            alert('Para com isso, que vc vai ter uma diabete!')
+            break
+        }
+        mostrador.innerHTML = (`Seu café tem ${colheres_acucar} colher(es) de açúcar!`)
+    }
+        document.write('Seu café está servido!')
+
+</script>

@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<h1>Contagem ...</h1>
+<script src="../src/javascript/pede_numero.js"></script>
+
+<script>
+    
+    var numero = solicitaDadoInt('Digite um numero mais que 0:')
+
+    while (numero >= 0){
+        var numero = solicitaDadoInt('Digite um numero mais que 0:')
+    }
+
+    document.write('Contando ... <br>')
+
+    for ( var contador = 0; contador <=numero; contador++){
+        document.write(`${contador} <br>`)
+    }
+
+    document.write('<br>FIM!!')
+
+
+</script>

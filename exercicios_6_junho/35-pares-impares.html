@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<h1>Impares e pares ...</h1>
+
+<script src="../src/javascript/pede_numero.js"></script>
+
+<script>
+    var par = []
+    var impar = []
+    var numeroInformados = []
+
+    for (var i = 1; i <= 7; i++) 
+    {
+        var algoritmo = solicitaDadoInt(`Informe um ${i} numero : `)
+        numeroInformados.push(algoritmo)
+        
+        if (algoritmo % 2 == 0) {
+            par.push(algoritmo)
+        } else {
+            impar.push(algoritmo)
+        }
+    }
+
+    document.write(`
+        Total Impares =  ${impar.length} <br>
+        Total Pares =  ${par.length}<br>
+        Pares = ${par} <br>
+        Impares = ${impar} <br>
+        Os números informados são: ${numeroInformados}
+    `)
+</script>
