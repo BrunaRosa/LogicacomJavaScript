@@ -56,6 +56,16 @@ Os exercicios feitos em cada arquivo está relacionado a alguns temas:
         <ul>
 </blockquote>
 
+<hr>
+<h3>Na aula do dia 06/06/2020 [arquivo: exercicios_6_junho ] falamos sobre:</h3>
+<blockquote>
+    <ul>
+        <li>Bibliotecas</li>
+        <li>Operadores de condições: while e for</li>
+        <li>Exercícios praticados durante a aula</li>
+        <ul>
+</blockquote>
+
 <br>
 <h2>Autora</h2>
 <blockquote><b>Bruna Rosa</b></blockquote>
